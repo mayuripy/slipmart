@@ -1,17 +1,17 @@
-import { actions} from '../constants/actions-type';
+import { ActionTypes } from "../contants/action-types";
 
 export const setproducts = (products) => {
     return {
-        type: ActionType.SET_PRODUCTS,
-        patload: products,
+        type: ActionTypes.SET_PRODUCTS,
+        payload: products,
     };
     
 };
 
 export const selectedproducts = (products) => {
     return {
-        type: ActionType.selected_PRODUCTS,
-        patload: products,
+        type: ActionTypes.SELECTED_PRODUCTS,
+        payload: products,
     };
 };     
 
